@@ -9,7 +9,7 @@ AC_CONFIG_MACRO_DIR([m4])
 dnl    Require autoconf-2.50 at least
 AC_PREREQ([2.69])
 dnl    Require Starlink automake
-AM_INIT_AUTOMAKE(1.8.2-starlink)
+AM_INIT_AUTOMAKE(1.8.2)
 
 dnl    Sanity-check: name a file in the source directory -- if this
 dnl    isn't found then configure will complain
