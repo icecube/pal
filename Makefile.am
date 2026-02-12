@@ -15,7 +15,7 @@ libpal_la_LDFLAGS = $(ERFA_LDFLAGS)
 libpal_la_LIBADD = $(ERFA_LIBADD) $(STARUTIL_LIBADD)
 
 # Misc files
-dist_starnews_DATA = pal.news
+#dist_starnews_DATA = pal.news
 dist_pkgdata_DATA = COPYING COPYING.LESSER README.md
 
 # Make all library code position independent. This is handy for creating
@@ -130,7 +130,7 @@ PRIVATE_C_FILES = \
 pal1Atms.c \
 pal1Atmt.c
 
-stardocs_DATA = @STAR_LATEX_DOCUMENTATION@
+#stardocs_DATA = @STAR_LATEX_DOCUMENTATION@
 
 TESTS = palTest
 

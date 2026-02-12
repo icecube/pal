@@ -129,12 +129,12 @@ else
 fi
 
 dnl    Declare the build and use dependencies for this package
-STAR_DECLARE_DEPENDENCIES(build, [erfa starutil])
-STAR_DECLARE_DEPENDENCIES(link,  [erfa starutil])
+dnl STAR_DECLARE_DEPENDENCIES(build, [erfa starutil])
+dnl STAR_DECLARE_DEPENDENCIES(link,  [erfa starutil])
 
 dnl    List the sun/ssn/... numbers which document this package and
 dnl    which are present as .tex files in this directory.
-STAR_LATEX_DOCUMENTATION(sun267)
+dnl STAR_LATEX_DOCUMENTATION(sun267)
 
 dnl    If you wish to configure extra files, you can add them to this
 dnl    declaration.
