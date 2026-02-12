@@ -28,6 +28,7 @@ libtool
 *.dvi
 *.log
 *.htx_tar
+m4/
 aclocal.m4
 autom4te.cache/
 component.xml
@@ -56,3 +57,10 @@ sun267.fls
 sun267.out
 sun267.toc
 /palsun.tex
+
+# libtoolize generated files
+m4/libtool.m4
+m4/ltoptions.m4
+m4/ltsugar.m4
+m4/ltversion.m4
+m4/lt~obsolete.m4

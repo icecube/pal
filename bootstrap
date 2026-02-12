@@ -1,5 +1,8 @@
 #! /bin/sh -
 
+if [ ! -d m4 ]; then
+  mkdir m4
+fi
 echo autoreconf --install --symlink --install
 autoreconf --install --symlink --install || exit 1
 exit 0

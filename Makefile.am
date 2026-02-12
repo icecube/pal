@@ -2,6 +2,7 @@
 
 lib_LTLIBRARIES = libpal.la
 
+ACLOCAL_AMFLAGS = -I m4
 
 # Include palOne2One.c separately since it is a combo file
 libpal_la_SOURCES = $(PUBLIC_C_FILES) palOne2One.c $(PRIVATE_C_FILES)
