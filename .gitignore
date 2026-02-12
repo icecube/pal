@@ -30,6 +30,7 @@ libtool
 *.htx_tar
 aclocal.m4
 autom4te.cache/
+component.xml
 componentinfo.dtd
 starconf.status
 sun267.ps
