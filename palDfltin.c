@@ -107,8 +107,6 @@
 
 /* isblank() is a C99 feature so we just reimplement it if it is missing */
 #if HAVE_ISBLANK
-#define _POSIX_C_SOURCE 200112L
-#define _ISOC99_SOURCE
 #include <ctype.h>
 # define ISBLANK isblank
 #else
