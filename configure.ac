@@ -17,7 +17,10 @@ dnl    isn't found then configure will complain
 AC_CONFIG_SRCDIR([pal.h])
 
 dnl    Include defaults for Starlink configurations
-STAR_DEFAULTS
+ifdef([STAR_DEFAULTS], [STAR_DEFAULTS], [
+AX_SPLIT_VERSION
+PACKAGE_VERSION_INTEGER=$AX_INTEGER_VERSION
+])
 
 dnl    Would like the version number as an integer
 AC_DEFINE_UNQUOTED([PACKAGE_VERSION_INTEGER], $PACKAGE_VERSION_INTEGER,
